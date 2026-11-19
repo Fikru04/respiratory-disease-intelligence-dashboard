@@ -1,22 +1,22 @@
-Respiratory Disease Intelligence Dashboard
+##Respiratory Disease Intelligence Dashboard
 > Developed during the November 16–18, 2026 Microsoft–CDC Buildathon, with Microsoft engineers serving as technical coaches.
 Public Data Notice
 This project uses only publicly available surveillance, laboratory, mortality, hospitalization, policy, and news data. No restricted, confidential, patient-level, proprietary, personally identifiable, or internal government data were used. The datasets can be obtained directly from their respective public providers.
-Overview
+##Overview
 This proof of concept demonstrates how public respiratory-disease data can be transformed into timely, leadership-focused situational awareness. The project integrates U.S. surveillance, laboratory testing, hospitalization, mortality, policy, and news information into a unified dashboard. England is included only as an external comparator. U.S. data, interpretation, and implications remain primary.
 The intelligence workflow addresses four leadership questions:
 What changed?
 What does the overall signal mean?
 What is likely to happen next?
 What questions should leaders be prepared to answer?
-Version 6.1
+##Version 6.1
 Version 6.1 retains the original Buildathon dashboard design and adds an AI-assisted intelligence layer:
 Change Brief: Identifies meaningful changes since the previous reporting period.
 Signal-Convergence Assessment: Explains whether indicators support a consistent or mixed respiratory-disease narrative.
 Near-Term Outlook: Describes the potential direction of activity over the next two to six weeks, with uncertainty clearly stated.
 Leadership Question Forecast: Anticipates likely leadership questions and provides evidence-based response framing.
 AI-generated content supports, but does not replace, epidemiologic and public-health judgment. Material findings should be reviewed before leadership distribution.
-Key Features
+##Key Features
 U.S.-first respiratory-disease situational awareness
 NREVSS multi-virus surveillance
 Influenza, RSV, COVID-19, and adenovirus views
@@ -59,7 +59,7 @@ Medicines and Healthcare products Regulatory Agency
 News and Official Context
 Publicly available news reports
 Publicly available government and public-health summaries
-Architecture
+##Architecture
 ```text
 Public Data Sources
         ↓
@@ -94,7 +94,7 @@ The dashboard is a self-contained HTML file:
 Download or clone the repository.
 Open `dashboard/respiratory_disease_intelligence_dashboard_v6_1.html` in a modern browser.
 No web server or installation is required for the static demonstration.
-Buildathon Collaboration
+##Buildathon Collaboration
 This project was developed during a three-day Buildathon held November 16–18, 2026, through collaboration between CDC and Microsoft.
 The Buildathon brought together public-health, analytics, and technology team members to explore how AI-assisted solutions can improve respiratory-disease situational awareness using publicly available data.
 Microsoft engineers served as technical coaches and advisors throughout the event, providing guidance on architecture, data integration, AI capabilities, prompt design, dashboard development, and the effective use of Microsoft technologies. CDC participants contributed public-health subject-matter expertise, data interpretation, requirements, testing, validation, and user-centered feedback.
@@ -112,14 +112,14 @@ Dashboard and visualization design
 Prompt engineering and AI-assisted analysis
 User testing and feedback
 Leadership-focused communication and situational awareness
-Lessons Learned
+##Lessons Learned
 The largest challenges were primarily related to infrastructure readiness rather than analytics or AI:
 Obtaining appropriate access and permissions
 Establishing secure and reliable data connections
 Resolving firewall and network restrictions
 Once these foundational requirements were addressed, the team was able to focus on analytics, visualizations, and AI-assisted interpretation.
 For future Buildathons, access, connectivity, and firewall requirements should be addressed before the event begins. A high-level overview of the Microsoft products, services, and target architecture should also be provided at the outset so participants share a common understanding of how the components fit together.
-Recognition
+##Recognition
 Microsoft–CDC Buildathon participant
 Microsoft Buildathon badge recipient, pending issuance
 Add the official badge image to `assets/` after receipt and update this section with the verified badge name and credential link.
@@ -129,7 +129,7 @@ Validate important findings against the underlying source data.
 Communicate uncertainty, reporting delays, and provisional values.
 Do not infer localized outbreaks from national test-positivity data alone.
 Use England as contextual evidence only, not as a direct predictor or policy driver for the United States.
-Disclaimer
+##Disclaimer
 This repository contains a proof-of-concept respiratory-disease intelligence dashboard created for educational, demonstration, and situational-awareness purposes.
 All datasets used in this project are publicly available. No restricted, confidential, internal, patient-level, or personally identifiable information was used.
 The analyses, visualizations, statistical classifications, and AI-assisted summaries do not constitute clinical guidance, policy recommendations, or official public-health determinations. Statistical signals shown in the dashboard should not be interpreted as confirmation of outbreaks. Confirmation requires additional evidence such as geographic clustering, clinical severity, hospitalization patterns, genomic linkage, or case review.
