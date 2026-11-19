@@ -22,20 +22,27 @@ All datasets can be obtained directly from their respective public providers.
 
 ## Overview
 
-The Respiratory Disease Intelligence Dashboard is a proof-of-concept platform designed to transform respiratory disease surveillance data into actionable situational awareness for public health decision-makers.
+## Dashboard Preview
 
-The dashboard integrates:
+### Executive Brief
 
-- Respiratory virus surveillance
-- Laboratory test positivity
-- Hospitalization indicators
-- Mortality trends
-- Vaccine and policy updates
-- Public health news and official reports
+![Executive Brief](docs/1.png)
 
-The platform follows a **U.S.-first approach**, with England serving only as an external comparator.
+### Influenza Intelligence View
 
----
+![Influenza](docs/2.png)
+
+### RSV Intelligence View
+
+![RSV](docs/3.png)
+
+### Cross-Cutting Respiratory Assessment
+
+![Cross Cutting](docs/4.png)
+
+### Policy and News Context
+
+![Policy and News](docs/5.png)
 
 ## The Problem
 
