@@ -26,23 +26,37 @@ All datasets can be obtained directly from their respective public providers.
 
 ### Executive Brief
 
-![Executive Brief](docs/1.png)
+
+### Executive Brief
+
+![Executive Brief](docs/executive-brief.png)
+
+The 90-second decision brief provides a leadership-focused summary of current respiratory disease activity, highlighting pathogens that may warrant additional monitoring.
 
 ### Influenza Intelligence View
 
-![Influenza](docs/2.png)
+![Influenza Intelligence View](docs/influenza-intelligence.png)
+
+The influenza module compares observed activity against expected seasonal ranges and contextualizes U.S. findings with an England comparator.
 
 ### RSV Intelligence View
 
-![RSV](docs/3.png)
+![RSV Intelligence View](docs/rsv-intelligence.png)
+
+The RSV module supports pediatric early-warning monitoring and situational awareness.
 
 ### Cross-Cutting Respiratory Assessment
 
-![Cross Cutting](docs/4.png)
+![Cross-Cutting Respiratory Assessment](docs/cross-cutting-view.png)
+
+This view brings together major respiratory conditions to support interpretation of overall trends.
 
 ### Policy and News Context
 
-![Policy and News](docs/5.png)
+![Policy and News Context](docs/policy-news-context.png)
+
+Public policy decisions and surveillance-related news are integrated to provide operational context for observed trends.
+
 
 ## The Problem
 
